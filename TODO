@@ -1,0 +1,41 @@
+index mostly good.
+
+gameboard
+
+put players at the different seats
+
+Get information from the url (uname (everyone), and gid (host only))
+
+allow host to start the game
+
+initiate deal (Choose how many cards for everybody - host chooses?)
+
+add game mechanics
+
+general setup:
+    need to request server every 2? (figure out how many heroku can handle) seconds to check for new plays
+    server will return last 5? plays.  Update the log and 
+    cards as appropriate
+
+To play a card: click on card, make it become shaded,
+then click on discard pile
+
+For other players, just have there name and a cardback with the number of cards in there hand 
+
+
+
+
+Sketch of gameboard, 3x3 html table already in gameboard.html
+|-----------------------------------|
+|           |           |           |
+| possible  | possible  | possible  |
+|    seat   |   seat    |   seat    |
+|-----------------------------------|
+|           |           |           |
+| possible  |   play    | possible  |
+|   seat    |   area    |   seat    |
+|-----------------------------------|
+|           |           |    log    |
+|           | my seat   | (last 10? |
+|           |           |   plays)  |
+|-----------------------------------|
